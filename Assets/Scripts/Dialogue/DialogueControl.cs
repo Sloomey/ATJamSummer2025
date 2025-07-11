@@ -12,7 +12,6 @@ public class DialogueControl : MonoBehaviour
     public GameObject textBox;
     public GameObject customButton;
     public GameObject optionPanel;
-    public bool isTalking = false;
 
     static Story story;
     TextMeshProUGUI message;
@@ -25,20 +24,18 @@ public class DialogueControl : MonoBehaviour
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
 
         choiceSelected = null;
+
+        AdvanceDialogue(); // Starting Dialogue;
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log(story.canContinue);
             if (story.canContinue)
             {
                 AdvanceDialogue();
-
-                if (story.currentChoices.Count > 0)
-                {
-                    StartCoroutine(ShowChoices());
-                }
             }
         }
     }
@@ -48,6 +45,11 @@ public class DialogueControl : MonoBehaviour
         string currentSentence = story.Continue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(currentSentence));
+
+        if (story.currentChoices.Count > 0)
+        {
+            StartCoroutine(ShowChoices());
+        }
     }
 
     public static void SetDecision(object element)

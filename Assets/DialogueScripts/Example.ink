@@ -1,5 +1,4 @@
-Once upon a time...
--> Example_Choices
+Once upon a time... -> Example_Choices
 
 == Example_Choices ==
  +There were two choices. -> Option_1
