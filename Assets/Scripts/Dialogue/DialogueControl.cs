@@ -15,16 +15,14 @@ public class DialogueControl : MonoBehaviour
     public bool isTalking = false;
 
     static Story story;
-    TextMeshPro nametag;
-    TextMeshPro message;
+    TextMeshProUGUI message;
     static Choice choiceSelected;
 
     private void Start()
     {
         story = new Story(inkFile.text);
 
-        nametag = textBox.transform.GetChild(0).GetComponent<TextMeshPro>();
-        message = textBox.transform.GetChild(1).GetComponent<TextMeshPro>();
+        message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
 
         choiceSelected = null;
     }
@@ -35,7 +33,6 @@ public class DialogueControl : MonoBehaviour
         {
             if (story.canContinue)
             {
-                nametag.text = "Example";
                 AdvanceDialogue();
 
                 if (story.currentChoices.Count > 0)
@@ -88,7 +85,7 @@ public class DialogueControl : MonoBehaviour
         for (int i = 0; i < _choices.Count; i++)
         {
             GameObject temp = Instantiate(customButton, optionPanel.transform);
-            temp.transform.GetChild(0).GetComponent<TextMeshPro>().text = _choices[i].text;
+            temp.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _choices[i].text;
             temp.AddComponent<Selectable>();
             temp.GetComponent<Selectable>().element = _choices[i];
             temp.GetComponent<Button>().onClick.AddListener(() => { temp.GetComponent<Selectable>().Decide(); });
