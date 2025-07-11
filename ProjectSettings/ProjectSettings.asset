@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 09139185d272563488fc31e7d0e36a2a
+  productGUID: 3097cb0e35bc01944a5e41b09d711531
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -673,10 +673,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 480c13d5-21e6-47a8-adbd-a2124ef70b21
+  cloudProjectId: 36c739d6-282a-436a-bf33-52f995cf964a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ATSummerJam2025
+  projectName: ATSummerJam2025 2025-07-10_18-10-12
   organizationId: sloomeeeey
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
