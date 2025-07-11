@@ -60,7 +60,6 @@ public class DialogueControl : MonoBehaviour
 
     void AdvanceFromDecision()
     {
-        optionPanel.SetActive(false);
         for (int i = 0; i < optionPanel.transform.childCount; i++)
         {
             Destroy(optionPanel.transform.GetChild(i).gameObject);
@@ -92,8 +91,6 @@ public class DialogueControl : MonoBehaviour
             temp.GetComponent<Selectable>().element = _choices[i];
             temp.GetComponent<Button>().onClick.AddListener(() => { temp.GetComponent<Selectable>().Decide(); });
         }
-
-        optionPanel.SetActive(true);
 
         yield return new WaitUntil(() => { return choiceSelected != null;  });
 
