@@ -17,6 +17,8 @@ public class DialogueControl : MonoBehaviour
     TextMeshProUGUI message;
     static Choice choiceSelected;
 
+    private bool dialogueOpen;
+
     private void Start()
     {
         story = new Story(inkFile.text);
@@ -24,6 +26,8 @@ public class DialogueControl : MonoBehaviour
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
 
         choiceSelected = null;
+
+        dialogueOpen = false;
 
     }
 
@@ -35,7 +39,7 @@ public class DialogueControl : MonoBehaviour
             {
                 AdvanceDialogue();
             }
-            else if (!story.canContinue && textBox.activeSelf) // Seeing if the textbox is still on screen
+            else if (!story.canContinue && textBox.activeSelf && story.currentChoices.Count <= 0) // Seeing if the textbox is still on screen
             {
                 CloseDialogue();
             }
@@ -43,14 +47,28 @@ public class DialogueControl : MonoBehaviour
     }
     public void OpenDialogue()
     {
-        story = new Story(inkFile.text);
+        if (!dialogueOpen)
+        {
+            dialogueOpen = true;
 
-        textBox.SetActive(true);
-        customButton.SetActive(true);
-        optionPanel.SetActive(true);
+            story = new Story(inkFile.text);
 
-        choiceSelected = null;
-        AdvanceDialogue();
+            textBox.SetActive(true);
+            customButton.SetActive(true);
+            optionPanel.SetActive(true);
+
+            choiceSelected = null;
+            AdvanceDialogue();
+        }
+    }
+
+    private void CloseDialogue()
+    {
+        dialogueOpen = false;
+
+        textBox.SetActive(false);
+        customButton.SetActive(false);
+        optionPanel.SetActive(false);
     }
 
     private void AdvanceDialogue()
@@ -63,13 +81,6 @@ public class DialogueControl : MonoBehaviour
         {
             StartCoroutine(ShowChoices());
         }
-    }
-
-    private void CloseDialogue()
-    {
-        textBox.SetActive(false);
-        customButton.SetActive(false);
-        optionPanel.SetActive(false);
     }
 
     public static void SetDecision(object element)

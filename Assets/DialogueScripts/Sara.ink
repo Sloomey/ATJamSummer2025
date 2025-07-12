@@ -7,15 +7,18 @@ Sara: Let me know.
 === Cutscene1 ===
 Sara: Verily, mine eyes are overwhelmed by this spectacle! What divine mystery unfolds before us?
 Sara takes form from a cascade of radiant light.
-    * Embrace the light. 
-        Her many eyes look upon you gleefully.
-        ->DONE
-    * Shield your eyes. 
-        She looks at you suspiciously. 
-        ->DONE
-    * Follow me?
-        OK.
-        ->DONE
+
+* [Embrace the light.]
+Her many eyes look upon you gleefully.
+->DONE
+
+* [Shield your eyes.]
+She looks at you suspiciously. 
+->DONE
+
+* [Follow me?]
+OK.
+->DONE
 
 === Bark ===
 Sara: Bark bark.

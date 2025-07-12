@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc0ae3b4c55b4c4598169a556886ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 4900000, guid: aee320954be552f418be771a0f2aecd9, type: 3}
+  dialogue: {fileID: 4900000, guid: dfc38757475e0d84182dea46619990bc, type: 3}
 --- !u!1101 &-1232573146649174656
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
