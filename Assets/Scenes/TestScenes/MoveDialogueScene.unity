@@ -127,6 +127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5127106487211435514, guid: 01a7c6ab344fd30408a69387a91f54be, type: 3}
+      propertyPath: textBox
+      value: 
+      objectReference: {fileID: 394033945}
+    - target: {fileID: 5127106487211435514, guid: 01a7c6ab344fd30408a69387a91f54be, type: 3}
+      propertyPath: optionPanel
+      value: 
+      objectReference: {fileID: 1299671938}
     - target: {fileID: 8670785984311284756, guid: 01a7c6ab344fd30408a69387a91f54be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
