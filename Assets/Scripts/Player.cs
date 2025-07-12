@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
-using static UnityEditor.Progress;
-using System;
 
 public class Player : MonoBehaviour
 {
@@ -11,7 +9,6 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb2d;
     private Vector2 _movementInput;
     private List<IItem> Inventory;
-
     private NPC npcNextToRef; 
 
     private void Start()
@@ -23,6 +20,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         transform.position += (Vector3)(moveSpeed * Time.fixedDeltaTime * _movementInput);
+
     }
 
     //check if within distance of an NPC
@@ -46,7 +44,11 @@ public class Player : MonoBehaviour
 
     public void OnMove(InputValue inputValue)
     {
-        _movementInput = inputValue.Get<Vector2>().normalized;
+        DialogueControl dc = GameObject.FindAnyObjectByType<DialogueControl>();
+        if (!dc.IsDialogueOpen())
+        {
+            _movementInput = inputValue.Get<Vector2>().normalized;
+        }
     }
 
     public void OnInteract(InputValue inputValue)
