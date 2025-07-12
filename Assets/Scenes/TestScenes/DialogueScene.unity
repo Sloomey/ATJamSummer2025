@@ -1139,6 +1139,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1639609121}
     m_Modifications:
     - target: {fileID: 5127106487211435514, guid: 01a7c6ab344fd30408a69387a91f54be, type: 3}
+      propertyPath: inkFile
+      value: 
+      objectReference: {fileID: 4900000, guid: dfc38757475e0d84182dea46619990bc, type: 3}
+    - target: {fileID: 5127106487211435514, guid: 01a7c6ab344fd30408a69387a91f54be, type: 3}
       propertyPath: textBox
       value: 
       objectReference: {fileID: 1369089273}
