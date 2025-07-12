@@ -2,14 +2,17 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 using static UnityEditor.Progress;
+using System;
 
 public class Player : MonoBehaviour
 {
+
     public float moveSpeed;
     public Rigidbody2D rb2d;
     private Vector2 _movementInput;
-    private bool insideNPCZone = false;
     private List<IItem> Inventory;
+
+    private NPC npcNextToRef; 
 
     private void Start()
     {
@@ -27,8 +30,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("NPC"))
         {
-            insideNPCZone = true;
             Debug.Log("inside npc zone");
+            npcNextToRef = collision.gameObject.GetComponent<NPC>();
         }
     }
 
@@ -36,8 +39,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("NPC"))
         {
-            insideNPCZone = false;
             Debug.Log("left npc zone");
+            npcNextToRef = null;
         }
     }
 
@@ -48,11 +51,9 @@ public class Player : MonoBehaviour
 
     public void OnInteract(InputValue inputValue)
     {
-        if (insideNPCZone)
+        if (npcNextToRef != null)
         {
-            AddApple();
-            Debug.Log("ItemApple added to Inventory");
-            PrintInventory();
+            npcNextToRef.InteractedWith();
         }
     }
 

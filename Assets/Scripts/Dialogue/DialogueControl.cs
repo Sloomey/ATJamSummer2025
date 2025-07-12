@@ -24,6 +24,7 @@ public class DialogueControl : MonoBehaviour
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
 
         choiceSelected = null;
+
     }
 
     private void Update()
@@ -40,6 +41,17 @@ public class DialogueControl : MonoBehaviour
             }
         }
     }
+    public void OpenDialogue()
+    {
+        story = new Story(inkFile.text);
+
+        textBox.SetActive(true);
+        customButton.SetActive(true);
+        optionPanel.SetActive(true);
+
+        choiceSelected = null;
+        AdvanceDialogue();
+    }
 
     private void AdvanceDialogue()
     {
@@ -51,16 +63,6 @@ public class DialogueControl : MonoBehaviour
         {
             StartCoroutine(ShowChoices());
         }
-    }
-
-    private void OpenDialogue()
-    {
-        textBox.SetActive(true);
-        customButton.SetActive(true);
-        optionPanel.SetActive(true);
-
-        choiceSelected = null;
-        AdvanceDialogue();
     }
 
     private void CloseDialogue()
