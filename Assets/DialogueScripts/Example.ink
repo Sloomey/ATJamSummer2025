@@ -1,3 +1,5 @@
+EXTERNAL TestFunction(debugMessage)
+
 Once upon a time... -> Example_Choices
 
 == Example_Choices ==
@@ -9,6 +11,7 @@ Now there's more text. -> Example_Choices
 
 == Option_2 == 
 That's it
+~ TestFunction("this is ran from a function within ink!")
 -> END
 
 - They lived happily ever after.

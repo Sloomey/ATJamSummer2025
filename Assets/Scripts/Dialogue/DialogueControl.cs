@@ -22,6 +22,7 @@ public class DialogueControl : MonoBehaviour
     private void Start()
     {
         story = new Story(inkFile.text);
+        ConnectDialogueFunctions();
 
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
 
@@ -45,6 +46,13 @@ public class DialogueControl : MonoBehaviour
             }
         }
     }
+
+    private void ConnectDialogueFunctions()
+    {
+        story.BindExternalFunction("TestFunction", (string name) => {
+            Debug.Log(name);
+        });
+    }
     public void OpenDialogue()
     {
         if (!dialogueOpen)
@@ -52,6 +60,7 @@ public class DialogueControl : MonoBehaviour
             dialogueOpen = true;
 
             story = new Story(inkFile.text);
+            ConnectDialogueFunctions();
 
             textBox.SetActive(true);
             customButton.SetActive(true);
