@@ -22,20 +22,19 @@ public class DialogueControl : MonoBehaviour
         story = new Story(inkFile.text);
 
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-
-        choiceSelected = null;
-
-        AdvanceDialogue(); // Starting Dialogue;
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log(story.canContinue);
             if (story.canContinue)
             {
                 AdvanceDialogue();
+            }
+            else if (!story.canContinue && textBox.activeSelf) // Seeing if the textbox is still on screen
+            {
+                CloseDialogue();
             }
         }
     }
@@ -50,6 +49,23 @@ public class DialogueControl : MonoBehaviour
         {
             StartCoroutine(ShowChoices());
         }
+    }
+
+    private void OpenDialogue()
+    {
+        textBox.SetActive(true);
+        customButton.SetActive(true);
+        optionPanel.SetActive(true);
+
+        choiceSelected = null;
+        AdvanceDialogue();
+    }
+
+    private void CloseDialogue()
+    {
+        textBox.SetActive(false);
+        customButton.SetActive(false);
+        optionPanel.SetActive(false);
     }
 
     public static void SetDecision(object element)
