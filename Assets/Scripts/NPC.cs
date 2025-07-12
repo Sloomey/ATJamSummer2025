@@ -1,6 +1,3 @@
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 public class NPC : MonoBehaviour

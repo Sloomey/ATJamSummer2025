@@ -4,7 +4,6 @@ using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
-using System.Runtime.CompilerServices;
 
 public class DialogueControl : MonoBehaviour
 {
@@ -18,6 +17,11 @@ public class DialogueControl : MonoBehaviour
     static Choice choiceSelected;
 
     private bool dialogueOpen;
+
+    public bool IsDialogueOpen()
+    {
+        return dialogueOpen;
+    }
 
     private void Start()
     {
