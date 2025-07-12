@@ -22,20 +22,19 @@ public class DialogueControl : MonoBehaviour
         story = new Story(inkFile.text);
 
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-
-        choiceSelected = null;
-
-        AdvanceDialogue(); // Starting Dialogue;
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log(story.canContinue);
             if (story.canContinue)
             {
                 AdvanceDialogue();
+            }
+            else if (!story.canContinue && textBox.activeSelf) // Seeing if the textbox is still on screen
+            {
+                CloseDialogue();
             }
         }
     }
@@ -52,6 +51,23 @@ public class DialogueControl : MonoBehaviour
         }
     }
 
+    private void OpenDialogue()
+    {
+        textBox.SetActive(true);
+        customButton.SetActive(true);
+        optionPanel.SetActive(true);
+
+        choiceSelected = null;
+        AdvanceDialogue();
+    }
+
+    private void CloseDialogue()
+    {
+        textBox.SetActive(false);
+        customButton.SetActive(false);
+        optionPanel.SetActive(false);
+    }
+
     public static void SetDecision(object element)
     {
         choiceSelected = (Choice)element;
@@ -60,7 +76,6 @@ public class DialogueControl : MonoBehaviour
 
     void AdvanceFromDecision()
     {
-        optionPanel.SetActive(false);
         for (int i = 0; i < optionPanel.transform.childCount; i++)
         {
             Destroy(optionPanel.transform.GetChild(i).gameObject);
@@ -92,8 +107,6 @@ public class DialogueControl : MonoBehaviour
             temp.GetComponent<Selectable>().element = _choices[i];
             temp.GetComponent<Button>().onClick.AddListener(() => { temp.GetComponent<Selectable>().Decide(); });
         }
-
-        optionPanel.SetActive(true);
 
         yield return new WaitUntil(() => { return choiceSelected != null;  });
 
