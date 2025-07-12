@@ -22,6 +22,8 @@ public class DialogueControl : MonoBehaviour
         story = new Story(inkFile.text);
 
         message = textBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+
+        choiceSelected = null;
     }
 
     private void Update()
