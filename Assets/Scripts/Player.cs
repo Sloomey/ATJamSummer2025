@@ -9,11 +9,18 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb2d;
     private Vector2 _movementInput;
     private List<IItem> Inventory;
-    private NPC npcNextToRef; 
+    private NPC npcNextToRef;
+
+    private Animator animator;
 
     private void Start()
     {
-        Inventory = new List<IItem>(); 
+        Inventory = new List<IItem>();
+    }
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -47,6 +54,12 @@ public class Player : MonoBehaviour
         if (!dc.IsDialogueOpen())
         {
             _movementInput = inputValue.Get<Vector2>().normalized;
+
+            if (_movementInput.x != 0 || _movementInput.y != 0)
+            {
+                animator.SetFloat("X", _movementInput.x);
+                animator.SetFloat("Y", _movementInput.y);
+            }    
         }
     }
 

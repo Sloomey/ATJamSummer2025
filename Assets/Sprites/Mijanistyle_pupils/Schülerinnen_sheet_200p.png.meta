@@ -250,7 +250,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -264,7 +264,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -288,7 +288,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1935,7 +1935,79 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Sch\xFClerinnen_sheet_200p_0": -5833243405390813625
+      "Sch\xFClerinnen_sheet_200p_1": -531589721335704175
+      "Sch\xFClerinnen_sheet_200p_10": -2575020339568113762
+      "Sch\xFClerinnen_sheet_200p_11": -6529313309272811276
+      "Sch\xFClerinnen_sheet_200p_12": -3825721661577300607
+      "Sch\xFClerinnen_sheet_200p_13": -686694842634457551
+      "Sch\xFClerinnen_sheet_200p_14": -7711495702112896789
+      "Sch\xFClerinnen_sheet_200p_15": -5136501908830872754
+      "Sch\xFClerinnen_sheet_200p_16": 1685153683007808501
+      "Sch\xFClerinnen_sheet_200p_17": 5384956934708280433
+      "Sch\xFClerinnen_sheet_200p_18": 7177622529347104657
+      "Sch\xFClerinnen_sheet_200p_19": -2565723514072048525
+      "Sch\xFClerinnen_sheet_200p_2": 8614537492199909452
+      "Sch\xFClerinnen_sheet_200p_20": -5815918960619970943
+      "Sch\xFClerinnen_sheet_200p_21": 1684380314616325863
+      "Sch\xFClerinnen_sheet_200p_22": 4410857106760467015
+      "Sch\xFClerinnen_sheet_200p_23": -4307137969367671112
+      "Sch\xFClerinnen_sheet_200p_24": 6894743140473919858
+      "Sch\xFClerinnen_sheet_200p_25": -3998133670468536232
+      "Sch\xFClerinnen_sheet_200p_26": 917189915824972041
+      "Sch\xFClerinnen_sheet_200p_27": 2966885904677373535
+      "Sch\xFClerinnen_sheet_200p_28": -1181201882875166373
+      "Sch\xFClerinnen_sheet_200p_29": -589058270376234059
+      "Sch\xFClerinnen_sheet_200p_3": -5196036134673383269
+      "Sch\xFClerinnen_sheet_200p_30": -4989784852697225267
+      "Sch\xFClerinnen_sheet_200p_31": -8882055984643895576
+      "Sch\xFClerinnen_sheet_200p_32": -3408533883876827929
+      "Sch\xFClerinnen_sheet_200p_33": 5072519743874022982
+      "Sch\xFClerinnen_sheet_200p_34": -4672067957449331894
+      "Sch\xFClerinnen_sheet_200p_35": -99613574866945507
+      "Sch\xFClerinnen_sheet_200p_36": 6763985519483463659
+      "Sch\xFClerinnen_sheet_200p_37": 1184334250828091936
+      "Sch\xFClerinnen_sheet_200p_38": -3291866286417009073
+      "Sch\xFClerinnen_sheet_200p_39": -9169056355419248183
+      "Sch\xFClerinnen_sheet_200p_4": 8232760814143108370
+      "Sch\xFClerinnen_sheet_200p_40": 9079961378903354444
+      "Sch\xFClerinnen_sheet_200p_41": -480007931257292602
+      "Sch\xFClerinnen_sheet_200p_42": -7174689466475212982
+      "Sch\xFClerinnen_sheet_200p_43": -1812826866768627904
+      "Sch\xFClerinnen_sheet_200p_44": -8742661004085237388
+      "Sch\xFClerinnen_sheet_200p_45": 6730159707125310124
+      "Sch\xFClerinnen_sheet_200p_46": 3501466100044444066
+      "Sch\xFClerinnen_sheet_200p_47": -4550390098029248187
+      "Sch\xFClerinnen_sheet_200p_48": -3952959335021606891
+      "Sch\xFClerinnen_sheet_200p_49": 3079387321905008762
+      "Sch\xFClerinnen_sheet_200p_5": 5749831582869683083
+      "Sch\xFClerinnen_sheet_200p_50": 902495193289436474
+      "Sch\xFClerinnen_sheet_200p_51": -5850763824635105799
+      "Sch\xFClerinnen_sheet_200p_52": -2878262718176390968
+      "Sch\xFClerinnen_sheet_200p_53": 5952095035748943808
+      "Sch\xFClerinnen_sheet_200p_54": -8538292073585161018
+      "Sch\xFClerinnen_sheet_200p_55": 7397757512939636605
+      "Sch\xFClerinnen_sheet_200p_56": -5321646499827501468
+      "Sch\xFClerinnen_sheet_200p_57": -7940661698573863630
+      "Sch\xFClerinnen_sheet_200p_58": -134030283808035538
+      "Sch\xFClerinnen_sheet_200p_59": -279638678672121081
+      "Sch\xFClerinnen_sheet_200p_6": -4479190240950254445
+      "Sch\xFClerinnen_sheet_200p_60": 2121858350698088874
+      "Sch\xFClerinnen_sheet_200p_61": -5733870003679548556
+      "Sch\xFClerinnen_sheet_200p_62": -5328410143022173400
+      "Sch\xFClerinnen_sheet_200p_63": 6905100989871584959
+      "Sch\xFClerinnen_sheet_200p_64": -8965292742584954637
+      "Sch\xFClerinnen_sheet_200p_65": 3214519728980502966
+      "Sch\xFClerinnen_sheet_200p_66": 624768898592814896
+      "Sch\xFClerinnen_sheet_200p_67": 5068030230169475391
+      "Sch\xFClerinnen_sheet_200p_68": 844400800557373606
+      "Sch\xFClerinnen_sheet_200p_69": 8598129597584988881
+      "Sch\xFClerinnen_sheet_200p_7": 1886213043899324043
+      "Sch\xFClerinnen_sheet_200p_70": -8953390436074831905
+      "Sch\xFClerinnen_sheet_200p_71": 2608996992752931652
+      "Sch\xFClerinnen_sheet_200p_8": 2247934915135823331
+      "Sch\xFClerinnen_sheet_200p_9": -5444528182952720031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
