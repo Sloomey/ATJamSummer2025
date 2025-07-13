@@ -1,0 +1,1943 @@
+fileFormatVersion: 2
+guid: 0a6b53e7b67a6454087cc6631bb60fba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5833243405390813625
+    second: "Sch\xFClerinnen_sheet_200p_0"
+  - first:
+      213: -531589721335704175
+    second: "Sch\xFClerinnen_sheet_200p_1"
+  - first:
+      213: 8614537492199909452
+    second: "Sch\xFClerinnen_sheet_200p_2"
+  - first:
+      213: -5196036134673383269
+    second: "Sch\xFClerinnen_sheet_200p_3"
+  - first:
+      213: 8232760814143108370
+    second: "Sch\xFClerinnen_sheet_200p_4"
+  - first:
+      213: 5749831582869683083
+    second: "Sch\xFClerinnen_sheet_200p_5"
+  - first:
+      213: -4479190240950254445
+    second: "Sch\xFClerinnen_sheet_200p_6"
+  - first:
+      213: 1886213043899324043
+    second: "Sch\xFClerinnen_sheet_200p_7"
+  - first:
+      213: 2247934915135823331
+    second: "Sch\xFClerinnen_sheet_200p_8"
+  - first:
+      213: -5444528182952720031
+    second: "Sch\xFClerinnen_sheet_200p_9"
+  - first:
+      213: -2575020339568113762
+    second: "Sch\xFClerinnen_sheet_200p_10"
+  - first:
+      213: -6529313309272811276
+    second: "Sch\xFClerinnen_sheet_200p_11"
+  - first:
+      213: -3825721661577300607
+    second: "Sch\xFClerinnen_sheet_200p_12"
+  - first:
+      213: -686694842634457551
+    second: "Sch\xFClerinnen_sheet_200p_13"
+  - first:
+      213: -7711495702112896789
+    second: "Sch\xFClerinnen_sheet_200p_14"
+  - first:
+      213: -5136501908830872754
+    second: "Sch\xFClerinnen_sheet_200p_15"
+  - first:
+      213: 1685153683007808501
+    second: "Sch\xFClerinnen_sheet_200p_16"
+  - first:
+      213: 5384956934708280433
+    second: "Sch\xFClerinnen_sheet_200p_17"
+  - first:
+      213: 7177622529347104657
+    second: "Sch\xFClerinnen_sheet_200p_18"
+  - first:
+      213: -2565723514072048525
+    second: "Sch\xFClerinnen_sheet_200p_19"
+  - first:
+      213: -5815918960619970943
+    second: "Sch\xFClerinnen_sheet_200p_20"
+  - first:
+      213: 1684380314616325863
+    second: "Sch\xFClerinnen_sheet_200p_21"
+  - first:
+      213: 4410857106760467015
+    second: "Sch\xFClerinnen_sheet_200p_22"
+  - first:
+      213: -4307137969367671112
+    second: "Sch\xFClerinnen_sheet_200p_23"
+  - first:
+      213: 6894743140473919858
+    second: "Sch\xFClerinnen_sheet_200p_24"
+  - first:
+      213: -3998133670468536232
+    second: "Sch\xFClerinnen_sheet_200p_25"
+  - first:
+      213: 917189915824972041
+    second: "Sch\xFClerinnen_sheet_200p_26"
+  - first:
+      213: 2966885904677373535
+    second: "Sch\xFClerinnen_sheet_200p_27"
+  - first:
+      213: -1181201882875166373
+    second: "Sch\xFClerinnen_sheet_200p_28"
+  - first:
+      213: -589058270376234059
+    second: "Sch\xFClerinnen_sheet_200p_29"
+  - first:
+      213: -4989784852697225267
+    second: "Sch\xFClerinnen_sheet_200p_30"
+  - first:
+      213: -8882055984643895576
+    second: "Sch\xFClerinnen_sheet_200p_31"
+  - first:
+      213: -3408533883876827929
+    second: "Sch\xFClerinnen_sheet_200p_32"
+  - first:
+      213: 5072519743874022982
+    second: "Sch\xFClerinnen_sheet_200p_33"
+  - first:
+      213: -4672067957449331894
+    second: "Sch\xFClerinnen_sheet_200p_34"
+  - first:
+      213: -99613574866945507
+    second: "Sch\xFClerinnen_sheet_200p_35"
+  - first:
+      213: 6763985519483463659
+    second: "Sch\xFClerinnen_sheet_200p_36"
+  - first:
+      213: 1184334250828091936
+    second: "Sch\xFClerinnen_sheet_200p_37"
+  - first:
+      213: -3291866286417009073
+    second: "Sch\xFClerinnen_sheet_200p_38"
+  - first:
+      213: -9169056355419248183
+    second: "Sch\xFClerinnen_sheet_200p_39"
+  - first:
+      213: 9079961378903354444
+    second: "Sch\xFClerinnen_sheet_200p_40"
+  - first:
+      213: -480007931257292602
+    second: "Sch\xFClerinnen_sheet_200p_41"
+  - first:
+      213: -7174689466475212982
+    second: "Sch\xFClerinnen_sheet_200p_42"
+  - first:
+      213: -1812826866768627904
+    second: "Sch\xFClerinnen_sheet_200p_43"
+  - first:
+      213: -8742661004085237388
+    second: "Sch\xFClerinnen_sheet_200p_44"
+  - first:
+      213: 6730159707125310124
+    second: "Sch\xFClerinnen_sheet_200p_45"
+  - first:
+      213: 3501466100044444066
+    second: "Sch\xFClerinnen_sheet_200p_46"
+  - first:
+      213: -4550390098029248187
+    second: "Sch\xFClerinnen_sheet_200p_47"
+  - first:
+      213: -3952959335021606891
+    second: "Sch\xFClerinnen_sheet_200p_48"
+  - first:
+      213: 3079387321905008762
+    second: "Sch\xFClerinnen_sheet_200p_49"
+  - first:
+      213: 902495193289436474
+    second: "Sch\xFClerinnen_sheet_200p_50"
+  - first:
+      213: -5850763824635105799
+    second: "Sch\xFClerinnen_sheet_200p_51"
+  - first:
+      213: -2878262718176390968
+    second: "Sch\xFClerinnen_sheet_200p_52"
+  - first:
+      213: 5952095035748943808
+    second: "Sch\xFClerinnen_sheet_200p_53"
+  - first:
+      213: -8538292073585161018
+    second: "Sch\xFClerinnen_sheet_200p_54"
+  - first:
+      213: 7397757512939636605
+    second: "Sch\xFClerinnen_sheet_200p_55"
+  - first:
+      213: -5321646499827501468
+    second: "Sch\xFClerinnen_sheet_200p_56"
+  - first:
+      213: -7940661698573863630
+    second: "Sch\xFClerinnen_sheet_200p_57"
+  - first:
+      213: -134030283808035538
+    second: "Sch\xFClerinnen_sheet_200p_58"
+  - first:
+      213: -279638678672121081
+    second: "Sch\xFClerinnen_sheet_200p_59"
+  - first:
+      213: 2121858350698088874
+    second: "Sch\xFClerinnen_sheet_200p_60"
+  - first:
+      213: -5733870003679548556
+    second: "Sch\xFClerinnen_sheet_200p_61"
+  - first:
+      213: -5328410143022173400
+    second: "Sch\xFClerinnen_sheet_200p_62"
+  - first:
+      213: 6905100989871584959
+    second: "Sch\xFClerinnen_sheet_200p_63"
+  - first:
+      213: -8965292742584954637
+    second: "Sch\xFClerinnen_sheet_200p_64"
+  - first:
+      213: 3214519728980502966
+    second: "Sch\xFClerinnen_sheet_200p_65"
+  - first:
+      213: 624768898592814896
+    second: "Sch\xFClerinnen_sheet_200p_66"
+  - first:
+      213: 5068030230169475391
+    second: "Sch\xFClerinnen_sheet_200p_67"
+  - first:
+      213: 844400800557373606
+    second: "Sch\xFClerinnen_sheet_200p_68"
+  - first:
+      213: 8598129597584988881
+    second: "Sch\xFClerinnen_sheet_200p_69"
+  - first:
+      213: -8953390436074831905
+    second: "Sch\xFClerinnen_sheet_200p_70"
+  - first:
+      213: 2608996992752931652
+    second: "Sch\xFClerinnen_sheet_200p_71"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_0"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 517
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7466a4557082c0fa0800000000000000
+      internalID: -5833243405390813625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_1"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 519
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195598507f96f98f0800000000000000
+      internalID: -531589721335704175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_2"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 517
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c482cd6153cfc8770800000000000000
+      internalID: 8614537492199909452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_3"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 517
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9003b05aa8f3e7b0800000000000000
+      internalID: -5196036134673383269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_4"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 519
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21571c76754a04270800000000000000
+      internalID: 8232760814143108370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_5"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 517
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bf4475c518bcf40800000000000000
+      internalID: 5749831582869683083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_6"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 517
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39483c62538b6d1c0800000000000000
+      internalID: -4479190240950254445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_7"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 519
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86d35415cc2d2a10800000000000000
+      internalID: 1886213043899324043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_8"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 517
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed5ede25e4423f10800000000000000
+      internalID: 2247934915135823331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_9"
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 517
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1690085c6762174b0800000000000000
+      internalID: -5444528182952720031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_10"
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 519
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9703aae4a0b34cd0800000000000000
+      internalID: -2575020339568113762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_11"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 517
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8509593283365a0800000000000000
+      internalID: -6529313309272811276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_12"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 443
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185fa281b6e48eac0800000000000000
+      internalID: -3825721661577300607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_13"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 445
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e2eabcdae5876f0800000000000000
+      internalID: -686694842634457551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_14"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 443
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8fb9424834bf490800000000000000
+      internalID: -7711495702112896789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_15"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 443
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b15007aba77b8b0800000000000000
+      internalID: -5136501908830872754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_16"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 445
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f32f9ba85ed26710800000000000000
+      internalID: 1685153683007808501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_17"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 443
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c30182dc53bba40800000000000000
+      internalID: 5384956934708280433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_18"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 443
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f239969a90c9360800000000000000
+      internalID: 7177622529347104657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_19"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 445
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c5ed7ce08b46cd0800000000000000
+      internalID: -2565723514072048525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_20"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 443
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e99c5f484b94fa0800000000000000
+      internalID: -5815918960619970943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_21"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 443
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6ed5fc8fe106710800000000000000
+      internalID: 1684380314616325863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_22"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 445
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742077b3b23863d30800000000000000
+      internalID: 4410857106760467015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_23"
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 443
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be1e3946d8f934c0800000000000000
+      internalID: -4307137969367671112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_24"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 369
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27952893b5c0faf50800000000000000
+      internalID: 6894743140473919858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_25"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 371
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858b1371c96c388c0800000000000000
+      internalID: -3998133670468536232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_26"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 369
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90161547e538abc00800000000000000
+      internalID: 917189915824972041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_27"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 369
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f568865d20f7c2920800000000000000
+      internalID: 2966885904677373535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_28"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 371
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51043355278b9fe0800000000000000
+      internalID: -1181201882875166373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_29"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 369
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3f732cf9e33d7f0800000000000000
+      internalID: -589058270376234059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_30"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 369
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc76b5d0d19b0cab0800000000000000
+      internalID: -4989784852697225267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_31"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 371
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee0b2024299cb480800000000000000
+      internalID: -8882055984643895576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_32"
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 369
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec93a6ed7472b0d0800000000000000
+      internalID: -3408533883876827929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_33"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 369
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e34c9e4d5356640800000000000000
+      internalID: 5072519743874022982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_34"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 371
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b6fb542fa792fb0800000000000000
+      internalID: -4672067957449331894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_35"
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 369
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1abf3f3bf91e9ef0800000000000000
+      internalID: -99613574866945507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_36"
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 295
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7a2ba2ef08edd50800000000000000
+      internalID: 6763985519483463659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_37"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 297
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022dfebe9b99f6010800000000000000
+      internalID: 1184334250828091936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_38"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 295
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46a706bd01f052d0800000000000000
+      internalID: -3291866286417009073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_39"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 295
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9a2b113d7f0c080800000000000000
+      internalID: -9169056355419248183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_40"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 297
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cecc334c0820e70800000000000000
+      internalID: 9079961378903354444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_41"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 295
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8f908645ba659f0800000000000000
+      internalID: -480007931257292602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_42"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 295
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f020181f16e6c90800000000000000
+      internalID: -7174689466475212982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_43"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 297
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047b8f6c19b87d6e0800000000000000
+      internalID: -1812826866768627904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_44"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 295
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479e6db2324dba680800000000000000
+      internalID: -8742661004085237388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_45"
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 295
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2e9d08894566d50800000000000000
+      internalID: 6730159707125310124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_46"
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 297
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1b83ecdd4b79030800000000000000
+      internalID: 3501466100044444066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_47"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 295
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54103899054c9d0c0800000000000000
+      internalID: -4550390098029248187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_48"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 221
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5180970bd644429c0800000000000000
+      internalID: -3952959335021606891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_49"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 223
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a705df7347e2cba20800000000000000
+      internalID: 3079387321905008762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_50"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 221
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3da38fb89e468c00800000000000000
+      internalID: 902495193289436474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_51"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 221
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd2be7dc49edcea0800000000000000
+      internalID: -5850763824635105799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_52"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 223
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c098d8be4b5e08d0800000000000000
+      internalID: -2878262718176390968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_53"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 221
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c78e2346e61a9250800000000000000
+      internalID: 5952095035748943808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_54"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc4c6dc894e18980800000000000000
+      internalID: -8538292073585161018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_55"
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 149
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d778e35534d1aa660800000000000000
+      internalID: 7397757512939636605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_56"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 147
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466b49524b6b526b0800000000000000
+      internalID: -5321646499827501468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_57"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 147
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23574fea14a1dc190800000000000000
+      internalID: -7940661698573863630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_58"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 149
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d2a70ca24d32ef0800000000000000
+      internalID: -134030283808035538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_59"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 147
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703e9447a168e1cf0800000000000000
+      internalID: -279638678672121081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_60"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 73
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa94e098dea527d10800000000000000
+      internalID: 2121858350698088874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_61"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ba96a6c933d60b0800000000000000
+      internalID: -5733870003679548556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_62"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 73
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823339fb43fad06b0800000000000000
+      internalID: -5328410143022173400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_63"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 73
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb67e77f3c8d3df50800000000000000
+      internalID: 6905100989871584959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_64"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 75
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f016d230c1e49380800000000000000
+      internalID: -8965292742584954637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_65"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 73
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b92e5989a44c9c20800000000000000
+      internalID: 3214519728980502966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_66"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 26
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037365bc000aba800800000000000000
+      internalID: 624768898592814896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_67"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39513c84a2455640800000000000000
+      internalID: 5068030230169475391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_68"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 26
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81745ed0ae7bb00800000000000000
+      internalID: 844400800557373606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_69"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da53dc6051b25770800000000000000
+      internalID: 8598129597584988881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_70"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf3162e5da2fb380800000000000000
+      internalID: -8953390436074831905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sch\xFClerinnen_sheet_200p_71"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443d91d11f4053420800000000000000
+      internalID: 2608996992752931652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
