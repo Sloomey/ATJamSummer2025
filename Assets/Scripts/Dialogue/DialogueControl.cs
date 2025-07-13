@@ -4,6 +4,7 @@ using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using Mono.Cecil.Cil;
 
 public class DialogueControl : MonoBehaviour
 {
@@ -55,6 +56,29 @@ public class DialogueControl : MonoBehaviour
     {
         story.BindExternalFunction("TestFunction", (string name) => {
             Debug.Log(name);
+        });
+        story.BindExternalFunction("IsQuestActive", (string questName) => {
+          
+            QuestManager _qc = GameObject.FindAnyObjectByType<QuestManager>();
+
+            bool questActive = false;
+
+            for (int i = 0; i < _qc.activeQuests.Count; i++)
+            {
+                if (_qc.activeQuests[i].QID == "DeliverApple")
+                {
+                    questActive = true;
+                }
+            }
+
+            if (questActive)
+            {
+                return true;
+            }
+            else 
+            { 
+                return false; 
+            }
         });
     }
     public void OpenDialogue()

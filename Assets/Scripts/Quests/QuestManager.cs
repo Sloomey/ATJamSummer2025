@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class QuestManager : MonoBehaviour
 {
-    List<Quest> activeQuests;
+    public List<Quest> activeQuests;
     List<Quest> allQuests;
+
+    private void Start()
+    {
+        activeQuests = new List<Quest>();
+    }
 
     void AdvanceQuest(Quest quest)
     {
