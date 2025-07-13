@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-
         Inventory = new List<IItem>(); 
     }
 
@@ -49,6 +48,18 @@ public class Player : MonoBehaviour
         {
             _movementInput = inputValue.Get<Vector2>().normalized;
         }
+    }
+
+
+    public Quest scriptableObjectValues;
+
+
+    public void OnCrouch(InputValue inputValue)
+    {
+        QuestManager _qc = GameObject.FindAnyObjectByType<QuestManager>();
+        _qc.activeQuests.Add(scriptableObjectValues);
+        
+        Debug.Log(scriptableObjectValues.QID);
     }
 
     public void OnInteract(InputValue inputValue)
