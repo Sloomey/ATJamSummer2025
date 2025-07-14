@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8691665473d283e4eb045b7d519cfb34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
+  moveSpeed: 4
   rb2d: {fileID: 2454057598099950178}
   scriptableObjectValues: {fileID: 11400000, guid: d99faa537bdb08548bb37e5716e5aaa9, type: 2}
 --- !u!50 &2454057598099950178
