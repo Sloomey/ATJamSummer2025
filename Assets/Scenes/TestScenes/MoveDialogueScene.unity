@@ -329,26 +329,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e48b7c1eef0470488c42e8710dfc150, type: 3}
---- !u!1 &296923236 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7428679010490800958, guid: 9028e59d0e7bf3243bd75e5a702d3e0a, type: 3}
-  m_PrefabInstance: {fileID: 951003704759873068}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &296923242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296923236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 005a84529b0311442bbf301c10e67f75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floatingTextPrefab: {fileID: 4516174467358976841, guid: 5e97dbf3eb2b34044b36362b3e43e8c8, type: 3}
-  floatingTextInstance: {fileID: 0}
-  textComponent: {fileID: 0}
 --- !u!1001 &322468277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1647,7 +1627,7 @@ PrefabInstance:
     - target: {fileID: 2839595373497259658, guid: 9028e59d0e7bf3243bd75e5a702d3e0a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2575020339568113762, guid: 0a6b53e7b67a6454087cc6631bb60fba, type: 3}
+      objectReference: {fileID: -2878262718176390968, guid: 0a6b53e7b67a6454087cc6631bb60fba, type: 3}
     - target: {fileID: 2839595373497259658, guid: 9028e59d0e7bf3243bd75e5a702d3e0a, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1671,10 +1651,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7428679010490800958, guid: 9028e59d0e7bf3243bd75e5a702d3e0a, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 296923242}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9028e59d0e7bf3243bd75e5a702d3e0a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
