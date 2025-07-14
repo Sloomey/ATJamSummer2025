@@ -57,6 +57,12 @@ public class DialogueControl : MonoBehaviour
         story.BindExternalFunction("TestFunction", (string name) => {
             Debug.Log(name);
         });
+        story.BindExternalFunction("StartQuest", (string quest) => {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().StartQuest(quest);
+        });
+        story.BindExternalFunction("AdvanceQuest", (string quest) => {
+            Debug.Log("Quest advanced");
+        });
         story.BindExternalFunction("IsQuestActive", (string questName) => {
           
             QuestManager _qc = GameObject.FindAnyObjectByType<QuestManager>();
@@ -65,7 +71,7 @@ public class DialogueControl : MonoBehaviour
 
             for (int i = 0; i < _qc.activeQuests.Count; i++)
             {
-                if (_qc.activeQuests[i].QID == "DeliverApple")
+                if (_qc.activeQuests[i].QID == questName)
                 {
                     questActive = true;
                 }

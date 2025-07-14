@@ -1,12 +1,26 @@
+EXTERNAL StartQuest(quest)
 EXTERNAL IsQuestActive(quest)
 
+->START
+== START ==
+{ IsQuestActive("DeliverApple"):
+    -> NEXT
+- else:
+    -> BEGIN
+}
+
 ->BEGIN
-
 ==BEGIN==
-Once upon a time...
- * [There were two choices.]
- * [There were four lines of content.]
- * {IsQuestActive("DeliverApple")} [Or a third option]
-
-- They lived happily ever after.
-    -> END
+-Hey you're the new kid, right...?
+-Can you do something for me?
+*   [What is it?]
+    Give this to Sara.
+    {StartQuest("DeliverApple")}
+    ->END
+*   [No]
+    Alright whatever. 
+    ->END
+    
+==NEXT==
+-Hey
+    ->END

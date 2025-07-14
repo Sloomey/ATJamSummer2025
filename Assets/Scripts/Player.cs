@@ -72,13 +72,14 @@ public class Player : MonoBehaviour
 
     public Quest scriptableObjectValues;
 
-
-    public void OnCrouch(InputValue inputValue)
+    public void StartQuest(string quest)
     {
         QuestManager _qc = GameObject.FindAnyObjectByType<QuestManager>();
-        _qc.activeQuests.Add(scriptableObjectValues);
-        
-        Debug.Log(scriptableObjectValues.QID);
+        if (scriptableObjectValues.QID == quest)
+        {
+            _qc.activeQuests.Add(scriptableObjectValues);
+
+        }
     }
 
     public void OnInteract(InputValue inputValue)
