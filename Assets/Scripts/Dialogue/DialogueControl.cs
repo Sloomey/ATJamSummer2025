@@ -91,8 +91,9 @@ public class DialogueControl : MonoBehaviour
             }
             return false;
         });
-        story.BindExternalFunction("IsQuestActive", (string questName) => {
-          
+        story.BindExternalFunction("IsQuestActive", (string questName) =>
+        {
+
             QuestManager _qc = GameObject.FindAnyObjectByType<QuestManager>();
 
             bool questActive = false;
@@ -109,10 +110,14 @@ public class DialogueControl : MonoBehaviour
             {
                 return true;
             }
-            else 
-            { 
-                return false; 
+            else
+            {
+                return false;
             }
+
+        });
+        story.BindExternalFunction("SitDown", () => {
+            GameObject.FindFirstObjectByType<ClassroomControl>().SitDown();
         });
     }
     public void OpenDialogue()

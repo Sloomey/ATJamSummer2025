@@ -40,8 +40,6 @@ public class NPC : MonoBehaviour
 
         // Set the name
         textComponent.text = "";
-
-    ChangeDialogueScript.SwitchDialogue += SwitchDialogue;
     }
 
     private void OnDestroy()
@@ -50,7 +48,6 @@ public class NPC : MonoBehaviour
         {
             Destroy(floatingTextInstance);
         }
-        ChangeDialogueScript.SwitchDialogue -= SwitchDialogue;
     }
 
     public void InteractedWith()
@@ -68,7 +65,7 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void SwitchDialogue(TextAsset newDialogue)
+    public void SwitchDialogue(TextAsset newDialogue)
     {
         dialogue = newDialogue;
     }

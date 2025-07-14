@@ -1,21 +1,28 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class ClassroomControl : MonoBehaviour
 {
-    public bool goHome;
+    public bool goHome = false;
+    public Animator sceneAnimator;
+    public GameObject fadeScreen;
 
-    public void UnlockClassroom()
+    private void Update()
     {
-        goHome = true;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+        if (fadeScreen.GetComponent<UnityEngine.UI.Image>().color.a >= 1)
+        {
+            goHome = true;
+        }
         if (goHome)
         {
-            Debug.Log("Working");
             SceneManager.LoadScene(sceneName: "Journal Scene");
         }
+    }
+
+    public void SitDown()
+    {
+        sceneAnimator.SetBool("playerSat", true);
     }
 }

@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("NPC"))
+        if (collision.gameObject.CompareTag("NPC") || collision.gameObject.CompareTag("Chair"))
         {
             Debug.Log("left npc zone");
             npcNextToRef = null;
