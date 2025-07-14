@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 1925389688670453069}
   - component: {fileID: 2839595373497259658}
   - component: {fileID: 6852359107699833462}
-  - component: {fileID: 8248047686986279593}
   - component: {fileID: 5010953727506491088}
+  - component: {fileID: 4062076647207549530}
+  - component: {fileID: 8315510394483217484}
   m_Layer: 0
-  m_Name: NPC 3
+  m_Name: Penelope
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2575020339568113762, guid: 0a6b53e7b67a6454087cc6631bb60fba, type: 3}
+  m_Sprite: {fileID: -2878262718176390968, guid: 0a6b53e7b67a6454087cc6631bb60fba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,7 +90,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!58 &6852359107699833462
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -126,28 +127,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.5
---- !u!95 &8248047686986279593
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7428679010490800958}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a67c416987adb1541a800874297f055b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5010953727506491088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,4 +139,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5edf02650b3e6b14e9ae38f82c31ad4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floatingTextPrefab: {fileID: 4516174467358976841, guid: 5e97dbf3eb2b34044b36362b3e43e8c8, type: 3}
   dialogue: {fileID: 4900000, guid: 8680dae04506ce44799cd23188d4d3fe, type: 3}
+  week1HallwayDialogue: {fileID: 0}
+  week1ClassDialogue: {fileID: 0}
+  week2HallwayDialogue: {fileID: 0}
+  week2ClassDialogue: {fileID: 0}
+  week3HallwayDialogue: {fileID: 0}
+  week3ClassDialogue: {fileID: 0}
+  picnicDialogue: {fileID: 0}
+  atWeek1Hallway: 0
+  atWeek1Class: 0
+  atWeek2Hallway: 0
+  atWeek2Class: 0
+  atWeek3Hallway: 0
+  atWeek3Class: 0
+--- !u!61 &4062076647207549530
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428679010490800958}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.6666667, y: 1.3333334}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.4, y: 0.25}
+  m_EdgeRadius: 0
+--- !u!50 &8315510394483217484
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428679010490800958}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

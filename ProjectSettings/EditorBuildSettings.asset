@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
     path: Assets/Scenes/TestScenes/Journal Scene.unity
     guid: cba466c0a70d9d54bb3a42a6368299c3
   - enabled: 1
@@ -17,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScenes/ClassroomIdea.unity
     guid: dba4ed58ff5bf214ebcec4df725e513e
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/PicnicIdea.unity
+    guid: f0db43dca334a064daa9a70d652565e9
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/End Credits.unity
+    guid: ae2012a9da7cde346b2b0374a79594fe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

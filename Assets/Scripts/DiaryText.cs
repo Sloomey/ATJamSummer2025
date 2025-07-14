@@ -6,8 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class DiaryText : MonoBehaviour
 {
-    public TextAsset inkFile;
+
     public TextMeshProUGUI textBox;
+
+    public TextAsset week1Text;
+    public TextAsset week2Text;
+    public TextAsset week3Text;
+
+    public AudioSource Audio;
 
     Animator anim;
 
@@ -15,17 +21,40 @@ public class DiaryText : MonoBehaviour
 
     public bool switchScenes = false;
 
+    public GameControl gameControl;
+
+    private TextAsset inkFile;
+
+    private Story journal;
+
     private void Start()
     {
+        switch (gameControl.gameWeek)
+        {
+            case 1:
+
+                journal = new Story(week1Text.text);
+                Audio.Play();
+                break;
+            case 2:
+                journal = new Story(week2Text.text);
+                Audio.Stop();
+                break;
+            case 3:
+                journal = new Story(week3Text.text);
+                Audio.Stop();
+                break;
+        }
+
 
         anim = GetComponent<Animator>();
 
         string _jLogStr = "";
-        Story _journal = new Story(inkFile.text);
+        
 
-        while (_journal.canContinue)
+        while (journal.canContinue)
         {
-            _jLogStr += _journal.Continue() + "\n";
+            _jLogStr += journal.Continue() + "\n";
         }
 
         textBox.text = _jLogStr;

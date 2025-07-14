@@ -1,0 +1,3 @@
+Sorry I haven't wrote in a while. Mom and Dad are completely split now. Mom told me that Dad is going to take care of me. She wasn't crying but her voice was shaky and it scared me, I hope I see her again eventually. Dad told me we're moving to a new state. I've already said goodbye to Evelyn here, she said we'll be BFFs forever. I feel like she was the only person who understood how I saw life at this age. Everybody our age seems so happy and joyful, I don't think that will ever be me. Now I don't even have anyone who makes me feel not alone in this. I'm not excited, I'm very scared, but at least I don't have to hear Mom and Dad shout anymore.
+
+Off to my first day of school here...

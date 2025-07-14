@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using Mono.Cecil.Cil;
+using UnityEngine.SceneManagement;
 
 public class DialogueControl : MonoBehaviour
 {
@@ -118,6 +119,9 @@ public class DialogueControl : MonoBehaviour
         });
         story.BindExternalFunction("SitDown", () => {
             GameObject.FindFirstObjectByType<ClassroomControl>().SitDown();
+        });
+        story.BindExternalFunction("EndGame", () => {
+            GameObject.FindFirstObjectByType<PicnicControl>().EndGame();
         });
     }
     public void OpenDialogue()
