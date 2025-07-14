@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Template_sit_ground_0: 4547474155461070915
+      Template_sit_ground_1: -2730221176259230687
+      Template_sit_ground_10: -6344334517343090371
+      Template_sit_ground_11: -3936331152390089928
+      Template_sit_ground_2: -2602381395832066674
+      Template_sit_ground_3: -4941576163401225157
+      Template_sit_ground_4: -392082401635644105
+      Template_sit_ground_5: -7034964908902389412
+      Template_sit_ground_6: -2425226678280680859
+      Template_sit_ground_7: 3521752031846532906
+      Template_sit_ground_8: -6694373591353012089
+      Template_sit_ground_9: 6279770949854596100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

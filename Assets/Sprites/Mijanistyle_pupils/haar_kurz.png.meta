@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      haar_kurz_0: 2929632735685102696
+      haar_kurz_1: 1067450286327397878
+      haar_kurz_10: -1441263679903595176
+      haar_kurz_11: -5775593292567002666
+      haar_kurz_2: -3509709446482845796
+      haar_kurz_3: 7724934497574804542
+      haar_kurz_4: 3883818526955751487
+      haar_kurz_5: -5529213755801090012
+      haar_kurz_6: 6920445110523562645
+      haar_kurz_7: 6968108246369253824
+      haar_kurz_8: 3560590996432249869
+      haar_kurz_9: -5023215992615861215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

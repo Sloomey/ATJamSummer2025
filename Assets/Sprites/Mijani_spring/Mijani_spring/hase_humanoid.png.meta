@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hase_humanoid_0: -5948883425123126752
+      hase_humanoid_1: -6387268792531492793
+      hase_humanoid_10: 5610807934058270364
+      hase_humanoid_11: 4169861631351166065
+      hase_humanoid_2: -7146142487764946752
+      hase_humanoid_3: 2980716737738078975
+      hase_humanoid_4: 5115659535269160003
+      hase_humanoid_5: -4510061800586652846
+      hase_humanoid_6: -5163956278746127254
+      hase_humanoid_7: -8482779671298542300
+      hase_humanoid_8: -7349407076125388476
+      hase_humanoid_9: 5810653302439198508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

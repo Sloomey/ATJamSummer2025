@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      langes_haar_0: -349470765874670830
+      langes_haar_1: -1271011728612899991
+      langes_haar_10: 6937429690836778209
+      langes_haar_11: -1124989372904054208
+      langes_haar_2: 742482619909512320
+      langes_haar_3: 8232619008080779371
+      langes_haar_4: -3212324275195277021
+      langes_haar_5: -4029508998518156194
+      langes_haar_6: -4619317285743181578
+      langes_haar_7: -4910120757020083309
+      langes_haar_8: 7151051070367843242
+      langes_haar_9: 4520917137063330381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

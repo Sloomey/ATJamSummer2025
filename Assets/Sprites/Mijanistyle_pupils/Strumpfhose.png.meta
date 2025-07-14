@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Strumpfhose_0: -6912380262255264684
+      Strumpfhose_1: -5486214254334538830
+      Strumpfhose_2: 5796359132995348169
+      Strumpfhose_3: 3656104229078821648
+      Strumpfhose_4: 1131618399158501412
+      Strumpfhose_5: -6019058007888770915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

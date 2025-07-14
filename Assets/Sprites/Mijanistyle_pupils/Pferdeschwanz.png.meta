@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pferdeschwanz_0: -7245598298003803681
+      Pferdeschwanz_1: 408879834510819757
+      Pferdeschwanz_10: 179937719800609331
+      Pferdeschwanz_11: -7240784646575610589
+      Pferdeschwanz_2: -982999050262423098
+      Pferdeschwanz_3: -5678362084292709875
+      Pferdeschwanz_4: 301428175195671281
+      Pferdeschwanz_5: 187354714440138282
+      Pferdeschwanz_6: -5531615557077314266
+      Pferdeschwanz_7: 6274579132881813375
+      Pferdeschwanz_8: 6650383910963854156
+      Pferdeschwanz_9: 4023467407832437394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
