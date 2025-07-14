@@ -1,12 +1,39 @@
+EXTERNAL StartQuest(quest)
 EXTERNAL IsQuestActive(quest)
+EXTERNAL EndQuest(quest)
+EXTERNAL IsQuestFinished(quest)
 
-->BEGIN
+->START
+== START ==
+{ IsQuestActive("DeliverApple"):
+    -> NEXT
+- else:
+    -> BEGIN
+}
 
 ==BEGIN==
-Once upon a time...
- * [There were two choices.]
- * [There were four lines of content.]
- * {IsQuestActive("DeliverApple")} [Or a third option]
+-Hey you're the new kid, right...?
+-Can you do something for me?
+*   [What is it?]
+    Give this apple to Sara.
+    {StartQuest("DeliverApple")}
+    ->END
+*   [No]
+    Alright whatever. 
+    ->END
+    
+==NEXT==
+{ IsQuestFinished("DeliverApple"):
+    -> QFINISHED
+- else:
+    -> QNOTFINISHED
+}
 
-- They lived happily ever after.
-    -> END
+==QFINISHED==
+-You actually gave it to her??
+-HAHAHAHA that's hilarious. Sara hates apples!
+->END
+
+==QNOTFINISHED==
+-Hey did you give it to her yet?
+    ->END

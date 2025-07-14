@@ -5,6 +5,7 @@ public class Quest : ScriptableObject
 {
     public string QID;
     public Milestone[] milestones;
+    public bool finished = false;
     //unique event to fire upon completion?
     //reward for completion? 
 }

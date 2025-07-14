@@ -1,26 +1,27 @@
--> Cutscene1
-=== Evening ===
-Sara: Want to date?
-Sara: Let me know.
-->DONE
+EXTERNAL StartQuest(quest)
+EXTERNAL IsQuestActive(quest)
+EXTERNAL EndQuest(quest)
+EXTERNAL IsQuestFinished(quest)
 
-=== Cutscene1 ===
-Sara: Verily, mine eyes are overwhelmed by this spectacle! What divine mystery unfolds before us?
-Sara takes form from a cascade of radiant light.
 
-* [Embrace the light.]
-Her many eyes look upon you gleefully.
-->DONE
+->BEGIN
 
-* [Shield your eyes.]
-She looks at you suspiciously. 
-->DONE
+==BEGIN==
+{ IsQuestFinished("DeliverApple"):
+    -> HATRED
+- else:
+    -> START
+}
 
-* [Follow me?]
-OK.
-->DONE
-
-=== Bark ===
-Sara: Bark bark.
-Sara: OK I'm done.
--> END
+==START==
+-Hi I'm Sara! Nice to meet you!
+ *  [Leave]
+    ->END
+ *  {IsQuestActive("DeliverApple")} [Bob said to give this to you]
+    {EndQuest("DeliverApple")}
+    Oh... okay.
+    ->END
+    
+==HATRED==
+-I don't want to talk to you anymore.
+->END
