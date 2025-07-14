@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      picknick_tiles_0: -5579339007903711951
+      picknick_tiles_1: 4866149667640350324
+      picknick_tiles_10: 842317592854747408
+      picknick_tiles_11: -207327108169561219
+      picknick_tiles_12: 2121534818987305431
+      picknick_tiles_13: 2715887165427065942
+      picknick_tiles_14: 9114037671174043893
+      picknick_tiles_15: -5665782379779331482
+      picknick_tiles_16: -372602220333853797
+      picknick_tiles_17: -5799308672644018187
+      picknick_tiles_18: -4089815849082273368
+      picknick_tiles_19: -4797001116973763172
+      picknick_tiles_2: -8286520647470455122
+      picknick_tiles_20: -5616186331974317331
+      picknick_tiles_21: 1418290377301492486
+      picknick_tiles_22: 8217077738759801797
+      picknick_tiles_23: 2257579971768327023
+      picknick_tiles_24: -3825507658328496959
+      picknick_tiles_25: -8659714296662296371
+      picknick_tiles_26: -5684626915252319539
+      picknick_tiles_27: -98795542906843013
+      picknick_tiles_28: 740675324743383278
+      picknick_tiles_29: 9033843572167891503
+      picknick_tiles_3: 9216769123681080526
+      picknick_tiles_30: -2189009837001470953
+      picknick_tiles_31: 4103346375970878907
+      picknick_tiles_4: 1939079916658071696
+      picknick_tiles_5: -3056120865501346951
+      picknick_tiles_6: 6423454873581430379
+      picknick_tiles_7: -2511864960746731812
+      picknick_tiles_8: -460526009376546916
+      picknick_tiles_9: -5076996619892765123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
