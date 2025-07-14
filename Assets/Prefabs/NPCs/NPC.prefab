@@ -160,4 +160,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5edf02650b3e6b14e9ae38f82c31ad4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floatingTextPrefab: {fileID: 4516174467358976841, guid: 5e97dbf3eb2b34044b36362b3e43e8c8, type: 3}
   dialogue: {fileID: 4900000, guid: 8680dae04506ce44799cd23188d4d3fe, type: 3}
