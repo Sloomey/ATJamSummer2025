@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 public class Player : MonoBehaviour
 {
@@ -23,10 +24,9 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        transform.position += (Vector3)(moveSpeed * Time.fixedDeltaTime * _movementInput);
-
+        rb2d.MovePosition(rb2d.position + moveSpeed * Time.fixedDeltaTime * _movementInput);
     }
 
     //check if within distance of an NPC
