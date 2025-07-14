@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\xDCberwurf_0": 1059091078839881739
+      "\xDCberwurf_1": -4117739442498671768
+      "\xDCberwurf_2": -8295300394324038321
+      "\xDCberwurf_3": -7227033302950516561
+      "\xDCberwurf_4": -4333255415133370402
+      "\xDCberwurf_5": -638073230677946896
+      "\xDCberwurf_6": -1334388977200528706
+      "\xDCberwurf_7": 8265797839799201343
+      "\xDCberwurf_8": 4781350200016513061
+      "\xDCberwurf_9": 7967117013429460877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
