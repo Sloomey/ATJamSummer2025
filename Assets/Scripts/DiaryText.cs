@@ -12,6 +12,7 @@ public class DiaryText : MonoBehaviour
     public TextAsset week1Text;
     public TextAsset week2Text;
     public TextAsset week3Text;
+    public TextAsset week4Text;
 
     public AudioSource Audio;
 
@@ -21,15 +22,15 @@ public class DiaryText : MonoBehaviour
 
     public bool switchScenes = false;
 
-    public GameControl gameControl;
-
     private TextAsset inkFile;
 
     private Story journal;
 
+    private bool gameOver;
+
     private void Start()
     {
-        switch (gameControl.gameWeek)
+        switch (GameControl.gameWeek)
         {
             case 1:
 
@@ -43,6 +44,11 @@ public class DiaryText : MonoBehaviour
             case 3:
                 journal = new Story(week3Text.text);
                 Audio.Stop();
+                break;
+            case 4:
+                journal = new Story(week4Text.text);
+                Audio.Stop();
+                gameOver = true;
                 break;
         }
 
@@ -65,6 +71,11 @@ public class DiaryText : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetBool("FadeSwitch", true);
+
+            if (gameOver)
+            {
+                SceneManager.LoadScene(sceneName: "End Credits");
+            }
         }
 
         if (switchScenes)

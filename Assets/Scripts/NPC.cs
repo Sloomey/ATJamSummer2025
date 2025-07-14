@@ -9,7 +9,6 @@ public class NPC : MonoBehaviour
     private GameObject floatingTextInstance;
     private TextMeshProUGUI textComponent;
     public TextAsset dialogue;
-    private GameControl gameControl;
 
     public TextAsset week1HallwayDialogue;
     public TextAsset week1ClassDialogue;
@@ -27,11 +26,6 @@ public class NPC : MonoBehaviour
     public bool atWeek3Class;
 
     private Animator Animator;
-
-    private void Awake()
-    {
-        gameControl = GameObject.FindAnyObjectByType<GameControl>();
-    }
 
     void Update()
     {
@@ -63,7 +57,7 @@ public class NPC : MonoBehaviour
         // Set the name
         textComponent.text = "";
 
-        switch (gameControl.gameWeek)
+        switch (GameControl.gameWeek)
         {
             case 1:
                 if (SceneManager.GetActiveScene().name == "HallwayIdea" && !atWeek1Hallway)

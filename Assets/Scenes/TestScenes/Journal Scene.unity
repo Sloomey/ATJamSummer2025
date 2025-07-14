@@ -1143,8 +1143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 1446987582}
   week1Text: {fileID: 4900000, guid: 5cfbf055398d28049824636271056728, type: 3}
-  week2Text: {fileID: 0}
-  week3Text: {fileID: 0}
+  week2Text: {fileID: 4900000, guid: ad25ef7b24d77db44be6781791d71904, type: 3}
+  week3Text: {fileID: 4900000, guid: 69a5ce407f0b7684e957c7d080269853, type: 3}
+  week4Text: {fileID: 4900000, guid: 644fad1e82c81684cacd50aad573f1b0, type: 3}
   Audio: {fileID: 1159310884}
   switchScenes: 0
   gameControl: {fileID: 1581017142}

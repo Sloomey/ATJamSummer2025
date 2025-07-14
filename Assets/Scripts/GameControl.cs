@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameControl : MonoBehaviour
 {
-    public int gameWeek = 1;
+    public static int gameWeek = 1;
 
     public static GameControl Instance { get; private set; } // Global access point.
 

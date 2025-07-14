@@ -10628,7 +10628,7 @@ MonoBehaviour:
   atWeek1Hallway: 0
   atWeek1Class: 1
   atWeek2Hallway: 0
-  atWeek2Class: 0
+  atWeek2Class: 1
   atWeek3Hallway: 0
   atWeek3Class: 1
 --- !u!58 &1672964838

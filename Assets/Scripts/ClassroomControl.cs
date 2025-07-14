@@ -11,11 +11,6 @@ public class ClassroomControl : MonoBehaviour
 
     private GameControl gameControl;
 
-    private void Awake()
-    {
-        gameControl = GameObject.FindAnyObjectByType<GameControl>();
-    }
-
     private void Update()
     {
         if (fadeScreen.GetComponent<UnityEngine.UI.Image>().color.a >= 1)
@@ -24,8 +19,8 @@ public class ClassroomControl : MonoBehaviour
         }
         if (goHome)
         {
-            gameControl.gameWeek += 1;
-            if (gameControl.gameWeek >= 4)
+            GameControl.gameWeek += 1;
+            if (GameControl.gameWeek >= 4)
             {
                 SceneManager.LoadScene(sceneName: "PicnicIdea");
             }
