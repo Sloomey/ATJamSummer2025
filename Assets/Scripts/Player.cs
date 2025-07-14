@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour
     private NPC npcNextToRef;
 
     private Animator animator;
+    public TextMeshProUGUI questDescriptionBox;
     public Quest scriptableObjectValues;
 
     private void Start()
@@ -79,7 +81,7 @@ public class Player : MonoBehaviour
         if (scriptableObjectValues.QID == quest)
         {
             _qc.activeQuests.Add(scriptableObjectValues);
-
+            questDescriptionBox.text = scriptableObjectValues.questDescription;
         }
     }
 

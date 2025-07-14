@@ -4,6 +4,7 @@ using UnityEngine;
 public class Quest : ScriptableObject
 {
     public string QID;
+    public string questDescription;
     public Milestone[] milestones;
     public bool finished = false;
     //unique event to fire upon completion?

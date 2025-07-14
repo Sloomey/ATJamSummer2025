@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: QuestTest
   m_EditorClassIdentifier: 
   QID: DeliverApple
+  questDescription: Deliver Apple to Sara
   milestones:
   - MID: Talk to Bob
     type: 0
     target: 0
     dialogueOption: AppleQuest1
     item: 1
+  finished: 0
