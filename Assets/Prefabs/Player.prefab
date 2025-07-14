@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   rb2d: {fileID: 2454057598099950178}
+  questDescriptionBox: {fileID: 0}
   scriptableObjectValues: {fileID: 11400000, guid: d99faa537bdb08548bb37e5716e5aaa9, type: 2}
 --- !u!50 &2454057598099950178
 Rigidbody2D:
@@ -132,7 +133,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!114 &256051207502619311
 MonoBehaviour:
