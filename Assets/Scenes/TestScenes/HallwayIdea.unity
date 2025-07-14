@@ -679,6 +679,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
+      propertyPath: atWeek2Hallway
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7428679010490800958, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
       propertyPath: m_Name
       value: Penelope
@@ -738,7 +742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: d46f49f6462067747a27de9c367cda57, type: 3}
       propertyPath: atWeek2Hallway
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7428679010490800958, guid: d46f49f6462067747a27de9c367cda57, type: 3}
       propertyPath: m_Name
@@ -1907,7 +1911,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: atWeek1Hallway
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
+      propertyPath: atWeek2Hallway
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7428679010490800958, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: m_Name
@@ -9121,7 +9129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1925389688670453069, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.9652424
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 1925389688670453069, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9163,6 +9171,14 @@ PrefabInstance:
       propertyPath: atWeek1Hallway
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
+      propertyPath: atWeek2Hallway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
+      propertyPath: week1HallwayDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: aee320954be552f418be771a0f2aecd9, type: 3}
     - target: {fileID: 7428679010490800958, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
       propertyPath: m_Name
       value: Cassy
@@ -9768,9 +9784,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
-      propertyPath: atWeek2Hallway
+      propertyPath: atWeek1Hallway
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
+      propertyPath: atWeek2Hallway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
+      propertyPath: week1HallwayDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 8680dae04506ce44799cd23188d4d3fe, type: 3}
     - target: {fileID: 7428679010490800958, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
       propertyPath: m_Name
       value: Hannah

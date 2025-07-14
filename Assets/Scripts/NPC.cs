@@ -60,35 +60,77 @@ public class NPC : MonoBehaviour
         switch (GameControl.gameWeek)
         {
             case 1:
-                if (SceneManager.GetActiveScene().name == "HallwayIdea" && !atWeek1Hallway)
+                if (SceneManager.GetActiveScene().name == "HallwayIdea")
                 {
-                    Destroy(gameObject);
+                    if (!atWeek1Hallway)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        dialogue = week1HallwayDialogue;
+                    }
                 }
-                if (SceneManager.GetActiveScene().name == "ClassroomIdea" && !atWeek1Class)
+                if (SceneManager.GetActiveScene().name == "ClassroomIdea")
                 {
-                    Destroy(gameObject);
+                    if (!atWeek1Class)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        dialogue = week1ClassDialogue;
+                    }
                 }
                 break;
 
             case 2:
-                if (SceneManager.GetActiveScene().name == "HallwayIdea" && !atWeek2Hallway)
+                if (SceneManager.GetActiveScene().name == "HallwayIdea")
                 {
-                    Destroy(gameObject);
+                    if (!atWeek2Hallway)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        dialogue = week2HallwayDialogue;
+                    }
                 }
-                if (SceneManager.GetActiveScene().name == "ClassroomIdea" && !atWeek2Class)
+                if (SceneManager.GetActiveScene().name == "ClassroomIdea")
                 {
-                    Destroy(gameObject);
+                    if (!atWeek2Class)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        dialogue = week2ClassDialogue;
+                    }
                 }
                 break;
 
             case 3:
-                if (SceneManager.GetActiveScene().name == "HallwayIdea" && !atWeek3Hallway)
+                if (SceneManager.GetActiveScene().name == "HallwayIdea")
                 {
-                    Destroy(gameObject);
+                    if (!atWeek3Hallway)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        dialogue = week3HallwayDialogue;
+                    }
                 }
-                if (SceneManager.GetActiveScene().name == "ClassroomIdea" && !atWeek3Class)
+                if (SceneManager.GetActiveScene().name == "ClassroomIdea")
                 {
-                    Destroy(gameObject);
+                    if (!atWeek3Class)
+                    {
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        dialogue = week3ClassDialogue;
+                    }
                 }
                 break;
         }

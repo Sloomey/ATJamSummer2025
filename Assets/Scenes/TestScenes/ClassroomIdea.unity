@@ -377,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: -1812826866768627904, guid: 0a6b53e7b67a6454087cc6631bb60fba, type: 3}
     - target: {fileID: 7269787200856215715, guid: 337564cb8b33362418935be90827ba74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.87
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 7269787200856215715, guid: 337564cb8b33362418935be90827ba74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.89
+      value: -4.55
       objectReference: {fileID: 0}
     - target: {fileID: 7269787200856215715, guid: 337564cb8b33362418935be90827ba74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -726,6 +726,22 @@ PrefabInstance:
       propertyPath: atWeek1Class
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
+      propertyPath: atWeek2Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
+      propertyPath: atWeek3Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
+      propertyPath: week1ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 91f2ebba310d7dc429442cf9b06ba3d0, type: 3}
+    - target: {fileID: 5010953727506491088, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
+      propertyPath: week2ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 57ccc058618c9254a9c034cdd779d7e0, type: 3}
     - target: {fileID: 7428679010490800958, guid: 0f9fe856d2b375e4b9818a5d9c3c290c, type: 3}
       propertyPath: m_Name
       value: Hannah
@@ -10017,11 +10033,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1925389688670453069, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.500989
+      value: -7.63
       objectReference: {fileID: 0}
     - target: {fileID: 1925389688670453069, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.91498935
+      value: -0.28
       objectReference: {fileID: 0}
     - target: {fileID: 1925389688670453069, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10056,9 +10072,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
+      propertyPath: atWeek1Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
+      propertyPath: atWeek2Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: atWeek3Class
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
+      propertyPath: week1ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 97b93d45e05741d49ad5de08c4c79422, type: 3}
+    - target: {fileID: 5010953727506491088, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
+      propertyPath: week2ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 071fbd7ea076c1544bbf0352fbb597b9, type: 3}
     - target: {fileID: 7428679010490800958, guid: 5248b98dd4a5f75448ce8e6206ec00fc, type: 3}
       propertyPath: m_Name
       value: Brittany
@@ -10117,9 +10149,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
+      propertyPath: atWeek1Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
       propertyPath: atWeek2Class
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
+      propertyPath: atWeek3Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
+      propertyPath: week1ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 647ff44b55e520b43be319b370b086d8, type: 3}
+    - target: {fileID: 5010953727506491088, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
+      propertyPath: week2ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 79ab4d9af3d520b4ea4037d11c3a06be, type: 3}
     - target: {fileID: 7428679010490800958, guid: 60677ae471f53f24aa4bf6b7a14712f3, type: 3}
       propertyPath: m_Name
       value: Cassy
@@ -10692,7 +10740,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1925389688670453069, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6043124
+      value: 6.76
       objectReference: {fileID: 0}
     - target: {fileID: 1925389688670453069, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10731,6 +10779,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
+      propertyPath: atWeek1Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
       propertyPath: atWeek2Class
       value: 1
       objectReference: {fileID: 0}
@@ -10738,6 +10790,14 @@ PrefabInstance:
       propertyPath: atWeek3Class
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
+      propertyPath: week1ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: df511157bb1dc864e948117f429ae790, type: 3}
+    - target: {fileID: 5010953727506491088, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
+      propertyPath: week2ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: d06c45fb1858cbe42bf4ac453ba57a3b, type: 3}
     - target: {fileID: 7428679010490800958, guid: 00edaac638feb0342960438815fe4e9b, type: 3}
       propertyPath: m_Name
       value: Penelope
@@ -12045,6 +12105,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5010953727506491088, guid: d46f49f6462067747a27de9c367cda57, type: 3}
+      propertyPath: atWeek1Class
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: d46f49f6462067747a27de9c367cda57, type: 3}
       propertyPath: atWeek2Class
       value: 1
       objectReference: {fileID: 0}
@@ -12052,6 +12116,14 @@ PrefabInstance:
       propertyPath: atWeek3Class
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5010953727506491088, guid: d46f49f6462067747a27de9c367cda57, type: 3}
+      propertyPath: week1ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 3dab71ec209d6604db3d26365d851880, type: 3}
+    - target: {fileID: 5010953727506491088, guid: d46f49f6462067747a27de9c367cda57, type: 3}
+      propertyPath: week2ClassDialogue
+      value: 
+      objectReference: {fileID: 4900000, guid: 8773c95ca9a7dab42b3e08bf8869506f, type: 3}
     - target: {fileID: 7428679010490800958, guid: d46f49f6462067747a27de9c367cda57, type: 3}
       propertyPath: m_Name
       value: Jennifer
