@@ -52,6 +52,21 @@ public class DialogueControl : MonoBehaviour
         }
     }
 
+    public Quest GetQuestByString(string str)
+    {
+
+        QuestManager _qc = GameObject.FindAnyObjectByType<QuestManager>();
+        for (int i = 0; i < _qc.activeQuests.Count; i++)
+        {
+            if (_qc.activeQuests[i].QID == str)
+            {
+                return _qc.activeQuests[i];
+            }
+        }
+        Debug.Log("NO QUEST RETURNED");
+        return null;
+    }
+
     private void ConnectDialogueFunctions()
     {
         story.BindExternalFunction("TestFunction", (string name) => {
@@ -60,8 +75,21 @@ public class DialogueControl : MonoBehaviour
         story.BindExternalFunction("StartQuest", (string quest) => {
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().StartQuest(quest);
         });
-        story.BindExternalFunction("AdvanceQuest", (string quest) => {
-            Debug.Log("Quest advanced");
+        story.BindExternalFunction("EndQuest", (string quest) => {
+            Quest tempQ = GetQuestByString(quest);
+            tempQ.finished = true;
+        });
+        story.BindExternalFunction("IsQuestFinished", (string quest) => {
+            Quest tempQ = GetQuestByString(quest);
+            if (tempQ == null)
+            {
+                return false;
+            }
+            if (tempQ.finished)
+            {
+                return true;
+            }
+            return false;
         });
         story.BindExternalFunction("IsQuestActive", (string questName) => {
           

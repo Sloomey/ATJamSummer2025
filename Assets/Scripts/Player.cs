@@ -13,9 +13,11 @@ public class Player : MonoBehaviour
     private NPC npcNextToRef;
 
     private Animator animator;
+    public Quest scriptableObjectValues;
 
     private void Start()
     {
+        scriptableObjectValues.finished = false;
         Inventory = new List<IItem>();
     }
 
@@ -70,7 +72,6 @@ public class Player : MonoBehaviour
     }
 
 
-    public Quest scriptableObjectValues;
 
     public void StartQuest(string quest)
     {
