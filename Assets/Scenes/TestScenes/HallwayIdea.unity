@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 183934047}
   - component: {fileID: 183934049}
   m_Layer: 0
-  m_Name: HallwayConntrol
+  m_Name: HallwayControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1595,6 +1595,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7463974996070804441, guid: 773762b4b2e3f2047b8facaf87f9afb9, type: 3}
   m_PrefabInstance: {fileID: 1525335197}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1331807606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8006787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.088231616
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043960593471108473, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950310090301460083, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
+      propertyPath: m_Name
+      value: QuestArrow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 36d44af2ec0ac4a4eb08bbbf0cd0fe31, type: 3}
 --- !u!1 &1369473204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4833989261497165957, guid: 773762b4b2e3f2047b8facaf87f9afb9, type: 3}
@@ -9689,3 +9746,4 @@ SceneRoots:
   - {fileID: 1933016199}
   - {fileID: 1683611575}
   - {fileID: 183934048}
+  - {fileID: 1331807606}
